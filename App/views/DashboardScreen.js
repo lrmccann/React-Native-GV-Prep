@@ -1,4 +1,12 @@
 import React from 'react';
+// ASSETS //
+import colors from '../assets/colors/colors';
+import constants from '../assets/constants/constants';
+// import fonts from '../assets/fonts/fonts';
+import icons from '../assets/icons/icons';
+import images from '../assets/images/images';
+import typography from '../assets/typography/typography';
+// END ASSETS //
 import {
     SafeAreaView,
     StyleSheet,
@@ -12,7 +20,7 @@ import {
 } from 'react-native';
 import { useState, useEffect } from 'react';
 
-const Dashboard = ({ navigation }) => {
+const DashboardScreen = ({ navigation }) => {
     console.log(navigation)
 
     const navHome = () => {
@@ -43,4 +51,4 @@ const styles = StyleSheet.create({
     }
 })
 
-export default Dashboard;
+export default DashboardScreen;

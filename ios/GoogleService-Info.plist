@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>92304714829-omoa55psrm20iaoiq69ns84ij3h4audq.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.92304714829-omoa55psrm20iaoiq69ns84ij3h4audq</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDVYXLgxoCtay3dkrYqfgvxFrxFnbSlE4I</string>
+	<key>GCM_SENDER_ID</key>
+	<string>92304714829</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.Logan.GrapevineAI</string>
+	<key>PROJECT_ID</key>
+	<string>grapevine-fb</string>
+	<key>STORAGE_BUCKET</key>
+	<string>grapevine-fb.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:92304714829:ios:ab22dd2b9a7444d0084004</string>
+</dict>
+</plist>

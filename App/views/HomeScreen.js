@@ -1,5 +1,12 @@
 import React from 'react';
-// import { useNavigation } from '@react-navigation/native';
+// ASSETS //
+import colors from '../assets/colors/colors';
+import constants from '../assets/constants/constants';
+// import fonts from '../assets/fonts/fonts';
+import icons from '../assets/icons/icons';
+import images from '../assets/images/images';
+import typography from '../assets/typography/typography';
+// END ASSETS //
 import {
     SafeAreaView,
     StyleSheet,
