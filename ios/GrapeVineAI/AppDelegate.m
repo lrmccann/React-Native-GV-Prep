@@ -23,9 +23,16 @@ static void InitializeFlipper(UIApplication *application) {
 }
 #endif
 
+@import UIKit;
+@import Firebase;
+
 @implementation AppDelegate
 
-- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
+- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+  [FIRApp configure];
+  return YES;
+}
+
 {
 #ifdef FB_SONARKIT_ENABLED
   InitializeFlipper(application);

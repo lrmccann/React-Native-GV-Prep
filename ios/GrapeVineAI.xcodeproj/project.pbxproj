@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* GrapeVineAITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* GrapeVineAITests.m */; };
+		0262394D26000E330096E0FF /* main.jsbundle in Resources */ = {isa = PBXBuildFile; fileRef = 008F07F21AC5B25A0029DE68 /* main.jsbundle */; };
 		0268E30825FB174E0048AD70 /* Dashboard.View.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0268E30725FB174E0048AD70 /* Dashboard.View.xib */; };
 		0B723152EACA4907580AB2A4 /* libPods-GrapeVineAI.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DDE2CCC946E94A3F93F3DC1 /* libPods-GrapeVineAI.a */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
@@ -352,6 +353,7 @@
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				0268E30825FB174E0048AD70 /* Dashboard.View.xib in Resources */,
+				0262394D26000E330096E0FF /* main.jsbundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

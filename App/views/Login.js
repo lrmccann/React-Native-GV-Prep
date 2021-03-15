@@ -1,5 +1,4 @@
-import React from 'react';
-import { useRef } from 'react';
+import React, {useState, useContext} from 'react';
 // ASSETS //
 import colors from '../assets/colors/colors';
 import constants from '../assets/constants/constants';
@@ -7,6 +6,8 @@ import constants from '../assets/constants/constants';
 import icons from '../assets/icons/icons';
 import images from '../assets/images/images';
 import typography from '../assets/typography/typography';
+import auth from '@react-native-firebase/auth';
+import { AuthContext } from '../Navigation/AuthNavigator';
 // END ASSETS //
 import {
     SafeAreaView,
@@ -20,22 +21,21 @@ import {
     TextInput,
     TouchableHighlight
 } from 'react-native';
-import { useState } from 'react/cjs/react.development';
 
 export default function LoginScreen({ navigation }) {
+
+    const { login } = useContext(AuthContext);
 
     const [usernameText , setUsernameText ] = useState();
     const [passwordText , setPasswordText] = useState();
 
-    const beginUserLogin = () => {
-        console.log(usernameText , "username")
-        console.log(passwordText ,  "password")
-        navigation.navigate('Home')
-    }
-    const signupUser = () => {
-        console.log("Sign Up User")
+    const loginUser = () => {
+        login(usernameText , passwordText);
+        console.log(usernameText , passwordText)
+        return
     }
 
+    
     return (
         <View style={styles.loginPage}>
             <ScrollView >
@@ -47,24 +47,31 @@ export default function LoginScreen({ navigation }) {
                     <TextInput style={styles.textInput} 
                         onChangeText={usernameText => setUsernameText(usernameText)}  
                         defaultValue={usernameText}
+                        autoCapitalize="none"
+                        autoCorrect={false}
+                        keyboardType="email-address"
                     />
                 <Text style={{fontSize : 25}}>Password</Text>
                     <TextInput style={styles.textInput} 
                     onChangeText={passwordText => setPasswordText(passwordText)}  
                     defaultValue={passwordText}
                     secureTextEntry
+                    // autoCapitalize="none"
+                    // autoCorrect={false}
+
                     />
                 </View>
                 <View style={styles.btnCont}>
                     <TouchableHighlight 
                     style={{backgroundColor : 'rgb(200 , 80 , 140) ' , flex : 1 , alignItems : 'center' , justifyContent: 'center'}}
-                    onPress={beginUserLogin}
+                    // onPress={() => login(usernameText , passwordText)}
+                    onPress={loginUser}
                     >
                         <Text style={{fontSize : 30, fontWeight: "600"}}>Log In</Text>
                     </TouchableHighlight>
                     <TouchableHighlight
                     style={{backgroundColor : "rgb(100 , 130 , 200)" , flex : 1 , alignItems : 'center' , justifyContent: 'center'}}
-                    onPress={signupUser}
+                    // onPress={signupUser}
                     >
                         <Text style={{fontSize : 30, fontWeight: "600"}}>Sign up</Text>
                     </TouchableHighlight>

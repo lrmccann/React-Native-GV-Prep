@@ -5,6 +5,8 @@ import { NavigationContainer } from '@react-navigation/native';
 import {Dimensions, View} from 'react-native';
 import LoginScreen from '../views/Login';
 import SignupScreen from '../views/Signup';
+import { AuthProvider } from './AuthNavigator';
+
 
 const Stack = createStackNavigator();
 export default function  NotLoggedInFlow () {
@@ -26,12 +28,14 @@ export default function  NotLoggedInFlow () {
   
   return (
     <View style={{ height: dimensions.window.height - 50, width: dimensions.window.width, display: 'flex' }}>
-      <NavigationContainer>
+                <AuthProvider>
+      {/* <NavigationContainer> */}
         <Stack.Navigator initialRouteName={'Login'}>
           <Stack.Screen name="Login" component={LoginScreen} />
           <Stack.Screen name="Signup" component={SignupScreen} />
         </Stack.Navigator>
-      </NavigationContainer>
+      {/* </NavigationContainer> */}
+      </AuthProvider>
     </View>
   )
 }

@@ -6,11 +6,8 @@ import { NavigationContainer } from '@react-navigation/native';
 import {Dimensions , View } from 'react-native';
 import DashboardScreen from '../views/DashboardScreen';
 import HomeScreen from '../views/HomeScreen';
-
-
-
-
-
+import SettingsScreen from '../views/SettingsScreen';
+import { AuthProvider } from './AuthNavigator';
 
 
 // START TAB BAR NAVIGATION FOR LOGGED IN USERS //
@@ -35,7 +32,8 @@ export default function LoggedInFlow () {
   return (
     <>
       <View style={{ height: dimensions.window.height - 50, width: dimensions.window.width }}>
-        <NavigationContainer>
+      <AuthProvider>
+        {/* <NavigationContainer> */}
           <Tab.Navigator
             screenOptions={({ route }) => ({
               tabBarIcon: ({ focused, color, size }) => {
@@ -58,8 +56,10 @@ export default function LoggedInFlow () {
           >
             <Tab.Screen name="Home" component={HomeScreen} />
             <Tab.Screen name="Dashboard" component={DashboardScreen} />
+            <Tab.Screen name="Settings" component={SettingsScreen} />
           </Tab.Navigator>
-        </NavigationContainer>
+        {/* </NavigationContainer> */}
+        </AuthProvider>
       </View>
     </>
   )
