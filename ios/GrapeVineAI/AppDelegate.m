@@ -12,6 +12,14 @@
 #import <SKIOSNetworkPlugin/SKIOSNetworkAdapter.h>
 #import <FlipperKitReactPlugin/FlipperKitReactPlugin.h>
 
+//#import <FIRApp.h>
+//#import <Firebase.h>
+//#import <FIRConfiguration.h>
+//#import <FirebaseCore.h>
+//#import <FirebaseInstallations.h>
+//#import <FirebaseAuth.h>
+//#import <FirebaseAnalytics/FirebaseAnalytics.h>
+
 static void InitializeFlipper(UIApplication *application) {
   FlipperClient *client = [FlipperClient sharedClient];
   SKDescriptorMapper *layoutDescriptorMapper = [[SKDescriptorMapper alloc] initWithDefaults];
@@ -23,8 +31,8 @@ static void InitializeFlipper(UIApplication *application) {
 }
 #endif
 
-@import UIKit;
-@import Firebase;
+//@import UIKit;
+//@import Firebase;
 
 @implementation AppDelegate
 
