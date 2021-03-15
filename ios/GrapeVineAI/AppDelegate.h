@@ -2,7 +2,7 @@
 #import <UIKit/UIKit.h>
 //#import <FIRApp.h>
 #import <FIRApp.h>
-#import <Firebase.h>
+//#import <Firebase.h>
 #import <FIRConfiguration.h>
 #import <FirebaseCore.h>
 #import <FirebaseInstallations.h>

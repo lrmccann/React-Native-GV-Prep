@@ -12,6 +12,8 @@
 #import <SKIOSNetworkPlugin/SKIOSNetworkAdapter.h>
 #import <FlipperKitReactPlugin/FlipperKitReactPlugin.h>
 
+#import "../GoogleService-Info.plist"
+
 //#import <FIRApp.h>
 //#import <Firebase.h>
 //#import <FIRConfiguration.h>
