@@ -1,5 +1,5 @@
 var icons = {
-    iconOne : "some icon"
-}
+  iconOne: 'some icon',
+};
 
 export default icons;

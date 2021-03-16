@@ -5,14 +5,13 @@
  * @format
  */
 
-// const config = await Metro.loadConfig();
+// const config = Metro.loadConfig();
 
-// await Metro.runBuild(config, {
-//   entry: 'index.js',
-//   out: 'bundle.js',
+// Metro.runBuild(config, {
+// entry: 'index.js',
+// out: 'bundle.js',
 // });
 const Metro = require('metro');
-
 
 module.exports = {
   /* general options */
@@ -20,7 +19,7 @@ module.exports = {
   //   resolveRequest: () =>  {
   //     usewatchman : true
   //   }
-    /* resolver options */
+  /* resolver options */
   // },
   transformer: {
     getTransformOptions: async () => ({
@@ -29,11 +28,11 @@ module.exports = {
         inlineRequires: false,
       },
     }),
-  // },
-  // serializer: {
+    // },
+    // serializer: {
     /* serializer options */
-  // },
-  // server: {
+    // },
+    // server: {
     /* server options */
-  }
+  },
 };

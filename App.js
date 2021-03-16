@@ -1,64 +1,28 @@
 import 'react-native-gesture-handler';
-import React , { useState, useEffect, createContext, useReducer, useMemo } from 'react';
-import AuthNavigator, {AuthContext} from './App/Navigation/AuthNavigator';
+import React from 'react';
 import firebase from '@react-native-firebase/app';
 import firebaseConfig from './App/configs/firebaseconfig';
-import {
-  SafeAreaView,
-  StyleSheet,
-  View,
-  StatusBar,
-} from 'react-native';
-import Routes from './App/Navigation/routes';
+import {StyleSheet, View} from 'react-native';
 import Providers from './App/Navigation';
-// import LoggedInFlow from './App/Navigation/LoggedInStack';
-// import NotLoggedInFlow from './App/Navigation/LoggedOutStack';
 
 const App = () => {
-  
-  console.log(firebase.app() , "i am theee console")
+  // console.log(firebase.app(), 'i am the console');
 
-  const startFirebase = () => {
-    firebase.initializeApp(firebaseConfig);
-    // firebase.app()
-  }
+  // const startFirebase = () => {
+  firebase.initializeApp(firebaseConfig);
+  // firebase.app();
+  // };
 
-  useEffect(() => {
-    startFirebase()
-  })
-
-
+  // useEffect(() => {
+  // startFirebase();
+  // });
 
   return (
-    // userToken == null ? (
-      <View style={styles.container}>
-
-        {/* <Routes /> */}
-        <Providers />
-
-        {/* <AuthNavigator /> */}
-
-        {/* <StatusBar barStyle="dark-content" />
-        <SafeAreaView>
-          <AuthContext.Provider value={authContextValue}>
-          <LoggedOutStack />
-          </AuthContext.Provider>
-        </SafeAreaView>
-      </View>
-    ) : (
-      <View style={styles.container}>
-        <StatusBar barStyle="light-content" />
-        <SafeAreaView>
-        <AuthContext.Provider value={authContextValue}>
-          <LoggedInStack />
-          </AuthContext.Provider>
-        </SafeAreaView> */}
-      </View>
-    )
-  // );
+    <View style={styles.container}>
+      <Providers />
+    </View>
+  );
 };
-
-
 
 const styles = StyleSheet.create({
   scrollView: {
@@ -69,7 +33,7 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     alignItems: 'center',
     backgroundColor: '#F5FCFF',
-  }
+  },
 });
 
 export default App;

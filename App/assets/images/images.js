@@ -1,5 +1,5 @@
 var images = {
-    imageOne : "some image"
-}
+  imageOne: 'some image',
+};
 
 export default images;

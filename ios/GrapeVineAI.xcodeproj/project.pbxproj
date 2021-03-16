@@ -8,25 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* GrapeVineAITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* GrapeVineAITests.m */; };
+		024B469E2600601900EB66BB /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED297162215061F000B7C4FE /* JavaScriptCore.framework */; };
 		0262394D26000E330096E0FF /* main.jsbundle in Resources */ = {isa = PBXBuildFile; fileRef = 008F07F21AC5B25A0029DE68 /* main.jsbundle */; };
 		0268E30825FB174E0048AD70 /* Dashboard.View.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0268E30725FB174E0048AD70 /* Dashboard.View.xib */; };
-		02BE38DE26004F1400AD1321 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB61A68108700A75B9A /* Info.plist */; };
 		02BE39822600507800AD1321 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 02BE38ED26004F9400AD1321 /* GoogleService-Info.plist */; };
 		02BE39872600507900AD1321 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 02BE38ED26004F9400AD1321 /* GoogleService-Info.plist */; };
 		02BE39882600507A00AD1321 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 02BE38ED26004F9400AD1321 /* GoogleService-Info.plist */; };
 		02BE39892600507B00AD1321 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 02BE38ED26004F9400AD1321 /* GoogleService-Info.plist */; };
-		0909F011323BBF6AF3C432C0 /* libPods-GrapeVineAI.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 02547069A185609880D1AB51 /* libPods-GrapeVineAI.a */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		2A25F8BE891D04223D0610C7 /* libPods-GrapeVineAI-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B7A1EF6CC1D95B742F916DAE /* libPods-GrapeVineAI-tvOS.a */; };
-		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		2DCD954D1E0B4F2C00145EB5 /* GrapeVineAITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* GrapeVineAITests.m */; };
 		307437D9666709A8F10F3BA2 /* libPods-GrapeVineAI-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D5C98C2F7ACC133206F6751 /* libPods-GrapeVineAI-tvOSTests.a */; };
-		764BC9EB2DA38354D2E1353A /* libPods-GrapeVineAI-GrapeVineAITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 85A3EEB5845EAB17C03919BB /* libPods-GrapeVineAI-GrapeVineAITests.a */; };
+		603095F917582B66CD54B127 /* libPods-GrapeVineAI-GrapeVineAITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 52119157F0503EAF7C2D9551 /* libPods-GrapeVineAI-GrapeVineAITests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		B9C1E45471B84AF89FFC5694 /* libPods-GrapeVineAI.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 02547069A185609880D1AB51 /* libPods-GrapeVineAI.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,7 +46,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		008F07F21AC5B25A0029DE68 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
+		008F07F21AC5B25A0029DE68 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = main.jsbundle; sourceTree = "<group>"; };
 		00E356EE1AD99517003FC87E /* GrapeVineAITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GrapeVineAITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* GrapeVineAITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GrapeVineAITests.m; sourceTree = "<group>"; };
@@ -66,8 +65,8 @@
 		2D02E47B1E0B4A5D006451C7 /* GrapeVineAI-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GrapeVineAI-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E4901E0B4A5D006451C7 /* GrapeVineAI-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GrapeVineAI-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5044E82823D84A1DE134E8DA /* Pods-GrapeVineAI-GrapeVineAITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GrapeVineAI-GrapeVineAITests.release.xcconfig"; path = "Target Support Files/Pods-GrapeVineAI-GrapeVineAITests/Pods-GrapeVineAI-GrapeVineAITests.release.xcconfig"; sourceTree = "<group>"; };
+		52119157F0503EAF7C2D9551 /* libPods-GrapeVineAI-GrapeVineAITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GrapeVineAI-GrapeVineAITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = GrapeVineAI/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		85A3EEB5845EAB17C03919BB /* libPods-GrapeVineAI-GrapeVineAITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GrapeVineAI-GrapeVineAITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEE70A14A124E9889491DECE /* Pods-GrapeVineAI-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GrapeVineAI-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-GrapeVineAI-tvOSTests/Pods-GrapeVineAI-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
 		B7A1EF6CC1D95B742F916DAE /* libPods-GrapeVineAI-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GrapeVineAI-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8916977F2EAFB0F64DAD730 /* Pods-GrapeVineAI-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GrapeVineAI-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-GrapeVineAI-tvOS/Pods-GrapeVineAI-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
@@ -83,7 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				764BC9EB2DA38354D2E1353A /* libPods-GrapeVineAI-GrapeVineAITests.a in Frameworks */,
+				603095F917582B66CD54B127 /* libPods-GrapeVineAI-GrapeVineAITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -91,7 +90,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0909F011323BBF6AF3C432C0 /* libPods-GrapeVineAI.a in Frameworks */,
+				024B469E2600601900EB66BB /* JavaScriptCore.framework in Frameworks */,
+				B9C1E45471B84AF89FFC5694 /* libPods-GrapeVineAI.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -155,7 +155,7 @@
 				B7A1EF6CC1D95B742F916DAE /* libPods-GrapeVineAI-tvOS.a */,
 				0D5C98C2F7ACC133206F6751 /* libPods-GrapeVineAI-tvOSTests.a */,
 				02547069A185609880D1AB51 /* libPods-GrapeVineAI.a */,
-				85A3EEB5845EAB17C03919BB /* libPods-GrapeVineAI-GrapeVineAITests.a */,
+				52119157F0503EAF7C2D9551 /* libPods-GrapeVineAI-GrapeVineAITests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -349,7 +349,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				02BE38DE26004F1400AD1321 /* Info.plist in Resources */,
 				02BE39872600507900AD1321 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -398,7 +397,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
+			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh\n";
 		};
 		1F6590CD604BC387BFB53824 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -647,7 +646,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */,
-				2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -679,7 +677,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 0F979E46604E3299F77E88B0 /* Pods-GrapeVineAI-GrapeVineAITests.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = 34FDRZR5AU;
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -687,7 +684,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = GrapeVineAITests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"-ObjC",
@@ -704,12 +701,11 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5044E82823D84A1DE134E8DA /* Pods-GrapeVineAI-GrapeVineAITests.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
 				DEVELOPMENT_TEAM = 34FDRZR5AU;
 				INFOPLIST_FILE = GrapeVineAITests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"-ObjC",
@@ -741,7 +737,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.Logan.GrapeVineAI;
+				PRODUCT_BUNDLE_IDENTIFIER = com.logan.bundle.grapevineai;
 				PRODUCT_NAME = GrapeVineAI;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "GrapeVineAI-Bridging-Header.h";
@@ -769,7 +765,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.Logan.GrapeVineAI;
+				PRODUCT_BUNDLE_IDENTIFIER = com.logan.bundle.grapevineai;
 				PRODUCT_NAME = GrapeVineAI;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "GrapeVineAI-Bridging-Header.h";

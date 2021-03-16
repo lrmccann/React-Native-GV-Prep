@@ -10,8 +10,6 @@ PODS:
     - React-Core (= 0.63.4)
     - React-jsi (= 0.63.4)
     - ReactCommon/turbomodule/core (= 0.63.4)
-  - Firebase/Analytics (7.8.0):
-    - Firebase/Core
   - Firebase/Auth (7.8.0):
     - Firebase/CoreOnly
     - FirebaseAuth (~> 7.8.0)
@@ -424,7 +422,8 @@ DEPENDENCIES:
   - DoubleConversion (from `../node_modules/react-native/third-party-podspecs/DoubleConversion.podspec`)
   - FBLazyVector (from `../node_modules/react-native/Libraries/FBLazyVector`)
   - FBReactNativeSpec (from `../node_modules/react-native/Libraries/FBReactNativeSpec`)
-  - Firebase/Analytics
+  - Firebase/Auth
+  - Firebase/Core
   - Flipper (= 0.80.0)
   - Flipper-DoubleConversion (= 1.1.7)
   - Flipper-Folly (~> 2.2)
@@ -639,6 +638,6 @@ SPEC CHECKSUMS:
   Yoga: 4bd86afe9883422a7c4028c00e34790f560923d6
   YogaKit: f782866e155069a2cca2517aafea43200b01fd5a
 
-PODFILE CHECKSUM: f0fe58fe37183a9a52d46e0e9e0b5cf544d70182
+PODFILE CHECKSUM: ccaaefbc73cdbd872642c74610c41a4145fc04b6
 
 COCOAPODS: 1.10.1

@@ -1,10 +1,4 @@
 #import "AppDelegate.h"
-#import <Firebase.h>
-#import <FIRApp.h>
-#import <FIRConfiguration.h>
-@import FirebaseAnalytics;
-@import Firebase;
-@import UIKit;
 
 #import <React/RCTBridge.h>
 #import <React/RCTBundleURLProvider.h>
@@ -29,10 +23,6 @@ static void InitializeFlipper(UIApplication *application) {
   [client start];
 }
 #endif
-
-//@import UIKit;
-//@import Firebase;
-//@import FirebaseAnalytics;
 
 @implementation AppDelegate
 
