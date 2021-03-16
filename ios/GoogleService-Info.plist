@@ -30,5 +30,7 @@
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
 	<string>1:92304714829:ios:ab22dd2b9a7444d0084004</string>
+	<key>DATABASE_URL</key>
+	<string>https://grapevine-fb-default-rtdb.firebaseio.com</string>
 </dict>
 </plist>

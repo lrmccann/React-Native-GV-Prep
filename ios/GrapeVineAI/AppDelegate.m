@@ -1,4 +1,10 @@
 #import "AppDelegate.h"
+#import <Firebase.h>
+#import <FIRApp.h>
+#import <FIRConfiguration.h>
+@import FirebaseAnalytics;
+@import Firebase;
+@import UIKit;
 
 #import <React/RCTBridge.h>
 #import <React/RCTBundleURLProvider.h>
@@ -12,15 +18,6 @@
 #import <SKIOSNetworkPlugin/SKIOSNetworkAdapter.h>
 #import <FlipperKitReactPlugin/FlipperKitReactPlugin.h>
 
-#import "../GoogleService-Info.plist"
-
-//#import <FIRApp.h>
-//#import <Firebase.h>
-//#import <FIRConfiguration.h>
-//#import <FirebaseCore.h>
-//#import <FirebaseInstallations.h>
-//#import <FirebaseAuth.h>
-//#import <FirebaseAnalytics/FirebaseAnalytics.h>
 
 static void InitializeFlipper(UIApplication *application) {
   FlipperClient *client = [FlipperClient sharedClient];
@@ -35,15 +32,18 @@ static void InitializeFlipper(UIApplication *application) {
 
 //@import UIKit;
 //@import Firebase;
+//@import FirebaseAnalytics;
 
 @implementation AppDelegate
 
-- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-  [FIRApp configure];
-  return YES;
-}
+- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
+//{
+//  [FIRApp configure];
+//  return YES;
+//}
 
 {
+  
 #ifdef FB_SONARKIT_ENABLED
   InitializeFlipper(application);
 #endif
