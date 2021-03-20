@@ -2,10 +2,13 @@ import 'react-native-gesture-handler';
 import React from 'react';
 import firebase from '@react-native-firebase/app';
 import firebaseConfig from './App/configs/firebaseconfig';
-import {StyleSheet, View} from 'react-native';
-import Providers from './App/Navigation';
+import {NativeModules, StyleSheet, View} from 'react-native';
+import Providers from './App/Navigation/index';
+
+const {NativeCalendar} = NativeModules;
 
 const App = () => {
+
   // console.log(firebase.app(), 'i am the console');
 
   // const startFirebase = () => {
